@@ -1,2 +1,2 @@
-# Skaak_REII313
-Trying to pass REII313 by coding Chess
+# Chess-REII313
+Trying to pass REII 313 by Coding a Chess Game
