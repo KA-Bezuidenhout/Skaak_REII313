@@ -17,6 +17,7 @@ SOURCES += \
     OptionMenu.cpp \
     Piece.cpp \
     StockfishPlayer.cpp \
+    board.cpp \
     main.cpp \
     mainwindow.cpp
 
@@ -29,6 +30,7 @@ HEADERS += \
     OptionsMenu.h \
     Piece.h \
     StockfishPlayer.h \
+    board.h \
     mainwindow.h
 
 # Default rules for deployment.
