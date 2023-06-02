@@ -9,29 +9,32 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    ChessBoard.cpp \
     EngineGame.cpp \
     Leaderboard.cpp \
     MainMenu.cpp \
+    Moves.cpp \
     OnlineGame.cpp \
     OptionMenu.cpp \
-    Piece.cpp \
     StockfishPlayer.cpp \
     board.cpp \
+    board_scene.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    piece.cpp
 
 HEADERS += \
-    ChessBoard.h \
     EngineGame.h \
     Leaderboard.h \
     MainMenu.h \
+    Moves.h \
     OnlineGame.h \
     OptionsMenu.h \
-    Piece.h \
     StockfishPlayer.h \
+    Tipes.h \
     board.h \
-    mainwindow.h
+    board_scene.h \
+    mainwindow.h \
+    piece.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -39,4 +42,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
+    Img/pieces.qrc \
     backroundImage.qrc

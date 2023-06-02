@@ -8,6 +8,12 @@
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent) {
+
+    //    thelabel = new QLabel(this);
+    //    thelabel->setPixmap(QPixmap(":/black_pawn.png").scaled(100,100));
+    //    thelabel->setPixmap(QPixmap(":/white_pawn.png").scaled(200,200));
+    //    thelabel->setFixedSize(thelabel->pixmap()->height(), thelabel->pixmap()->width());
+
     // Initialize UI elements and set up the main window
     // Create a main menu
     MainMenu *mainMenu = new MainMenu(this);

@@ -1,6 +1,8 @@
 #include "MainMenu.h"
 #include "OptionsMenu.h"
 #include "Leaderboard.h"
+#include "OnlineGame.h"
+#include "board.h"
 
 #include <QPushButton>
 #include <QVBoxLayout>
@@ -61,8 +63,8 @@ void MainMenu::startOnlineGame()
 {
     // Implement the logic to start the game here
     // Open the Online Game
-    //    OnlineGame *onlineGame = new OnlineGame;
-    //    OnlineGame->exec();
+    OnlineGame *onlineGame = new OnlineGame;
+//    onlineGame->onlineGame->show();
 }
 
 void MainMenu::startEngineGame()
